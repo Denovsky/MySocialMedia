@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MySocialMedia</string>
+    <string name="header">FOXTROT</string>
+    <string name="sign_up">Sign up</string>
+    <string name="log_in">Log in</string>
+    <string name="invite_code">Do you have an invite code?</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_invite_code">Enter your invite code</string>
+    <string name="two_factor_identification">Enter some unusual word (For two-factor identification)</string>
+    <string name="third_factor_identification">Enter your e’mail (For third-factor identification)</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="send_code">Send code</string>
+</resources>

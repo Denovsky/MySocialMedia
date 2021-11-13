@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/edit_forms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/error_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:fontFamily="@font/orbitron_regular"
+            android:textSize="12sp"
+            android:textColor="@color/error_color"
+            android:text="Example"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/orbitron_semibold"
+            android:gravity="center"
+            android:hint="@string/enter_your_username"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/error_invite_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:fontFamily="@font/orbitron_regular"
+            android:textSize="12sp"
+            android:textColor="@color/error_color"
+            android:text="Example"/>
+
+        <EditText
+            android:id="@+id/invite_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/orbitron_semibold"
+            android:gravity="center"
+            android:hint="@string/enter_your_invite_code"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/log_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="#297BDB"
+        android:fontFamily="@font/orbitron_regular"
+        android:gravity="center"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/textColor"
+        android:textSize="24sp" />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_form"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/invite_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/orbitron_regular"
+        android:gravity="center"
+        android:text="@string/invite_code"
+        android:textAllCaps="false"
+        android:textColor="#1D5BA4"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/orbitron_regular"
+        android:gravity="center"
+        android:backgroundTint="#297BDB"
+        android:text="@string/sign_up"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/textColor"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/log_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/orbitron_regular"
+        android:gravity="center"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/textColor"
+        android:textSize="24sp" />
+
+</LinearLayout>
